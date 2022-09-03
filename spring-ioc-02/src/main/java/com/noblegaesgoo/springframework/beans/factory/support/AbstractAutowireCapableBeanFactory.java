@@ -9,7 +9,7 @@ import com.noblegaesgoo.springframework.beans.factory.config.BeanDefinition;
  * @ProjectName: small-spring-private
  * @version: 0.0.1
  * @FileName: AbstractAutowireCapableBeanFactory
- * @Description: 自动装配能力的bean抽象工厂
+ * @Description: 真正执行创建bean实例对象抽象工厂
  */
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory {
 
